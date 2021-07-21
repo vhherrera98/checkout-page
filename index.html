@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta id="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Page</title>
+    <link rel="stylesheet" href="./assets/css/custom.css">
+    <link rel="shortcut icon" href="./assets/images/devchallenges.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Checkout</h1>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <form>
+                        <div class="contact">
+                            <h2>Contact information</h2>
+                            <div class="group">
+                                <h4>E-mail</h4>
+                                <div class="form-control">
+                                    <span class="material-icons">
+                                        email
+                                    </span>
+                                    <input placeholder="Enter your email..." type="email" id="email">
+                                </div>
+                            </div>
+                            <div class="group">
+                                <h4>Phone</h4>
+                                <div class="form-control">
+                                    <span class="material-icons">
+                                        phone
+                                    </span>
+                                    <input placeholder="Enter your phone... " type="number" id="phone">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shopping">
+                            <h2>Shipping address</h2>
+                            <div class="group">
+                                <h4>Full name</h4>
+                                <div class="form-control">
+                                    <span class="material-icons">
+                                        account_circle
+                                    </span>
+                                    <input placeholder="Your full name" type="text" id="name">
+                                </div>
+                            </div>
+                            <div class="group">
+                                <h4>Address</h4>
+                                <div class="form-control">
+                                    <span class="material-icons">
+                                        home
+                                    </span>
+                                    <input placeholder="Your address" type="address" id="address">
+                                </div>
+                            </div>
+                            <div class="group">
+                                <h4>City</h4>
+                                <div class="form-control">
+                                    <span class="material-icons">
+                                        location_city
+                                    </span>
+                                    <input placeholder="Your city" type="address" id="city">
+                                </div>
+                            </div>
+                            <div class="group-forms">
+                                <div class="group">
+                                    <h4>Country</h4>
+                                    <div class="form-control">
+                                        <span class="material-icons">
+                                            public
+                                        </span>
+                                        <select id="public">
+                                            <option value="none">Your country...</option>
+                                            <option value="bolivia">Bolivia</option>
+                                            <option value="spain">Spain</option>
+                                            <option value="cuba">Cuba</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="group">
+                                    <h4>Postal code</h4>
+                                    <div class="form-control">
+                                        <span class="material-icons">
+                                            markunread_mailbox
+                                        </span>
+                                        <input placeholder="Your postal code..." type="number" id="postal">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="check group">
+                                <input type="checkbox" id="info">
+                                <p>Save this information for next time</p>
+                            </div>
+                            <div class="send group">
+                                <input id="enviar" type="submit" value="Continue">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col">
+                    <div class="card-products">
+                        <div class="content">
+                            <div class="product product1">
+                                <div class="row">
+                                    <div class="col">
+                                        <img src="./assets/images/photo1.png" alt="product 1">
+                                    </div>
+                                    <div class="col">
+                                        <h5>Vintage Backbag</h5>
+                                        <p>$54.99 <span>$94.99</span></p>
+                                        <div class="amount">
+                                            <button>-</button>
+                                            <h1>1</h1>
+                                            <button>+</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product product2">
+                                <div class="row">
+                                    <div class="col">
+                                        <img src="./assets/images/photo2.png" alt="product 2">
+                                    </div>
+                                    <div class="col">
+                                        <h5>Levi Shoes</h5>
+                                        <p>$74.99 <span>$124.99</span></p>
+                                        <div class="amount">
+                                            <button>-</button>
+                                            <h1>1</h1>
+                                            <button>+</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cost">
+                                <div class="row row1">
+                                    <p>Shipping</p>
+                                    <p>$19</p>
+                                </div>
+                                <div class="row row2">
+                                    <p>Total</p>
+                                    <p>$148.98</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>
+            Created by <a target="_blank" href="https://github.com/vhherrera98">vhherrera98</a> - devChallenges.io
+        </p>
+    </footer>
+
+    <script src="./assets/scripts/main.js"></script>
+</body>
+
+</html>
